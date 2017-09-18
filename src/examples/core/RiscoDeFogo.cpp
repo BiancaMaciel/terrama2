@@ -201,8 +201,8 @@ int main(int argc, char *argv[])
 
     terrama2::core::TerraMA2Init terrama2Init("", 0);
     {
-        double x = -52.1958;
-        double y = -21.700;
+        double x = -55.2985;
+        double y = -23.3017;
 
         std::vector<std::string> precipitacao = {
             "S10648241_201703191200.tif",
@@ -334,14 +334,14 @@ int main(int argc, char *argv[])
         std::string temperature = TERRAMA2_DATA_DIR+"/dados_amb/saida/temperatura/";
         std::string nameFileTemperature = "TEMP201707161820.tif";
 
-        std::string result = TERRAMA2_DATA_DIR+"/dados_amb/saida/resultado_Script_Guilherme3/";
+        std::string result = TERRAMA2_DATA_DIR+"/dados_amb/saida/resultado_Script_Vegetacao_Novo/";
         std::string nameFileResult = "result201707162120.tif";
 
         std::string landcover = TERRAMA2_DATA_DIR+"/dados_amb/entrada/rf/landcover/";
-        std::string nameFileLand = "landcover_2012.tif";
+        std::string nameFileLand = "REF_5km.AS.tif";
 
         std::string gabarito = TERRAMA2_DATA_DIR+"/dados_amb/entrada/";
-        std::string nameFileGab = "RF.20170716.tif";
+        std::string nameFileGab = "RF.Agosto15.tif";
 
 
 
